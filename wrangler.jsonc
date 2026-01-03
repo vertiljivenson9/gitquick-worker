@@ -1,5 +1,16 @@
 {
   "name": "gitquick-worker",
   "main": "worker.js",
-  "compatibility_date": "2026-01-03"
+  "compatibility_date": "2026-01-03",
+
+  "observability": {
+    "enabled": false,
+    "logs": {
+      "enabled": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": false
+    }
+  }
 }
